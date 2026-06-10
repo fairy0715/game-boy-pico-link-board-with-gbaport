@@ -3,4 +3,5 @@
   (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/libraries/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
   (lib (name "BOB-12009")(type "KiCad")(uri "${KIPRJMOD}/libraries/BOB-12009 Libraries/BOB-12009.pretty")(options "")(descr ""))
   (lib (name "gb-link-socket")(type "KiCad")(uri "${KIPRJMOD}/libraries/GB-Link-Socker Libraries/gb-link-socket.pretty")(options "")(descr ""))
+  (lib (name "gba_linkport")(type "KiCad")(uri "${KIPRJMOD}/libraries/gba_linkport Libraries/gba_linkport.pretty")(options "")(descr ""))
 )
