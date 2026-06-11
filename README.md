@@ -8,12 +8,7 @@
 ライセンスは自作した[libraries/gba_linkport Libraries](libraries/gba_linkport%20Libraries)内のみ[CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.ja)です。  
 その他はMITライセンスを引き継いでいます。
 
-(libraries/gba_linkport Libraries/gba_linkport.kicad.sym)
-docs/board-front-3d.png
-
 Raspberry Pi Pico用のオープンソースUSB-ゲームボーイリンクケーブルアダプタです。入手しやすくはんだ付けしやすい部品で設計されています。
-
-[adfayigaf]
 
 stacksmashing の Gameboy Link adapter に基づいています: https://www.youtube.com/watch?v=KtHu693wE9o
 
@@ -26,8 +21,8 @@ stacksmashing の Gameboy Link adapter に基づいています: https://www.you
 |リファレンス|型番|説明|
 |---|---|---|
 |U1|[Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)|クローン品も互換性あり|
-|U2|BOB-12009 [sparkfun](https://www.sparkfun.com/products/12009) [秋月電子](https://akizukidenshi.com/catalog/g/g113837/)|Sparkfun 双方向ロジックコンバータ（クローン品も互換性あり）|
-|SW1|SS12D00-G3 [amazon](https://www.amazon.com/Tnuocke-Vertical-Position-Switches-SS12D00-G3/dp/B099MRCDG8) [秋月電子（未検証）](https://akizukidenshi.com/catalog/g/g115707/)|1回路2接点 2.54mmピッチ スライドスイッチ|
+|U2|BOB-12009 [sparkfun](https://www.sparkfun.com/products/12009) [秋月電子（未検証）](https://akizukidenshi.com/catalog/g/g113837/)|Sparkfun 双方向ロジックコンバータ（クローン品も互換性あり）|
+|SW1|SS12D00-G3 [amazon](https://www.amazon.com/Tnuocke-Vertical-Position-Switches-SS12D00-G3/dp/B099MRCDG8) [秋月電子](https://akizukidenshi.com/catalog/g/g115707/)|1回路2接点 2.54mmピッチ スライドスイッチ|
 
 SW1 はピンヘッダとジャンパで代用できます
 
@@ -37,7 +32,7 @@ SW1 はピンヘッダとジャンパで代用できます
 |-|[ジャンパ](https://www.amazon.com/dp/B077957RN7)|2.54mm ジャンパピン、古いマザーボードまたはハードドライブから取り出してください|
 
 添付のリンクは参考用です。同等の部品であればどれでも使用できます。  
-秋月電子のレベルシフタは、部品実装面が基板側に来るように配置すると思います。
+秋月電子のレベルシフタは、部品実装面が基板側に来るように配置が必要だと思います。
 
 [テスト済み部品一覧](COMPONENTS.md)
 
